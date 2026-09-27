@@ -1,0 +1,13 @@
+{
+  "sdk": {
+    "version": "8.0.401",
+    "rollForward": "latestFeature",
+    "allowPrerelease": false,
+    "paths": [ "./sdk", "global" ],
+    "errorMessage": "Custom message shown if no matching SDK is found."
+  },
+  "msbuild-sdks": {
+    "My.Custom.Sdk": "1.2.3",
+    "Another.Sdk": "4.5.6"
+  }
+}
